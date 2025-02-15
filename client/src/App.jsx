@@ -5,7 +5,7 @@ import Home from "./pages/Home";
 import Random from "./pages/Random";
 import Friend from "./pages/Friend";
 
-const socket = io("http://localhost:8080");
+const socket = io("https://multiplayer-tic-tac-toe-q5j3.onrender.com");
 function App() {
   return (
     <>
