@@ -11,7 +11,7 @@ app.use(cors());
 
 const io = new Server(httpServer, {  // Use httpServer here
   cors: {
-    origin: "http://localhost:5173", // Allow requests from Vite
+    origin: "https://multiplayer-tic-tac-toe-xi.vercel.app/", // Allow requests from Vite
     methods: ["GET", "POST"]
   }
 });
