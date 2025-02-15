@@ -160,6 +160,7 @@ io.on("connection", (socket) => {
     let game = games[roomId];
 
     [game.playerX, game.playerO] = [game.playerO, game.playerX];
+    [game.playerXName, game.playerOName] = [game.playerOName, game.playerXName];
 
     game.board = Array(9).fill(null);
     game.turn = "X"; // Reset turn
