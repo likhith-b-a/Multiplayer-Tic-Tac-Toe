@@ -1,0 +1,97 @@
+.tic-tac-toe {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  width: 400px;
+}
+
+h2 {
+  font-size: 1.4rem;
+  color: #333;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.waiting-msg {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #ff9800;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+  margin: 20px 0;
+}
+
+.cell {
+  width: 100px;
+  height: 100px;
+  font-size: 2rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background: #f0f0f0;
+  color: #333;
+  transition: 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cell:hover {
+  background: #e0e0e0;
+}
+
+.cell:disabled {
+  cursor: not-allowed;
+}
+
+.winner {
+  font-size: 1.5rem;
+  color: #4caf50;
+  font-weight: bold;
+}
+
+.turn {
+  font-size: 1.2rem;
+  color: #007bff;
+  font-weight: bold;
+}
+
+.mySymbol {
+  font-size: 1.2rem;
+  color: #ff5722;
+  font-weight: bold;
+}
+
+.curr_room{
+  font-size: 1.2rem;
+  color: #ff5722;
+  font-weight: bold;
+
+}
+
+.reset {
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background: #007bff;
+  color: white;
+  transition: 0.3s;
+}
+
+.reset:hover {
+  background: #0056b3;
+}

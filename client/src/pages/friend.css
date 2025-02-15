@@ -1,0 +1,87 @@
+.friend-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(to right, #1e3a8a, #3b82f6); /* Smooth blue gradient */
+}
+
+.game-box {
+  background: white;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  width: 500px;
+  text-align: center;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.room-controls {
+  margin-bottom: 20px;
+}
+
+.create-room, .join-room {
+  width: 100%;
+  padding: 10px;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-top: 10px;
+}
+
+.create-room {
+  background-color: #28a745;
+  color: white;
+}
+
+.create-room:hover {
+  background-color: #1e7e34;
+}
+
+.join-section {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.join-input {
+  flex: 1;
+  padding: 10px;
+  font-size: 1rem;
+  border: 2px solid #007bff;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.join-room {
+  background-color: #007bff;
+  color: white;
+}
+
+.join-room:hover {
+  background-color: #0056b3;
+}
+
+.room-id {
+  margin-top: 10px;
+  font-size: 1.1rem;
+  color: #1e3a8a;
+  font-weight: bold;
+  background: #e3f2fd;
+  padding: 8px;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.room-id span {
+  color: #007bff;
+}

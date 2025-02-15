@@ -1,0 +1,64 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+.name-input {
+  width: 250px;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.button-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.random-btn, .friend-btn {
+  width: 200px;
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.random-btn {
+  background: #ff4b5c;
+  color: white;
+}
+
+.friend-btn {
+  background: #1e90ff;
+  color: white;
+}
+
+.random-btn:hover {
+  background: #d43f4e;
+}
+
+.friend-btn:hover {
+  background: #187bcd;
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
